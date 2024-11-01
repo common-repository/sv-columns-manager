@@ -1,0 +1,7 @@
+.wp-block-straightvisions-sv-columns-manager > div > .wp-block-columns > .wp-block-column{
+    margin-bottom:0;
+}
+
+.wp-block-straightvisions-sv-columns-manager > div > .wp-block-columns > .wp-block-column:first-child{
+    margin-left:0;
+}

@@ -1,0 +1,8 @@
+@media(min-width:0px){
+    .wp-block-straightvisions-sv-columns-manager{
+        margin:0 auto;
+        /* remove inherited padding from sv content */
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+}

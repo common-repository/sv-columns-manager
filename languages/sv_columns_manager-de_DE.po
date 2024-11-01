@@ -1,0 +1,1085 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SV Columns Manager\n"
+"POT-Creation-Date: 2022-05-03 16:54+0200\n"
+"PO-Revision-Date: 2022-05-03 16:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sv_columns_manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#. Plugin Name of the plugin/theme
+#: dist/blocks.build.js:1 src/blocks/wrapper/index.js:10
+#: src/blocks/wrapper/index.js:15
+msgid "SV Columns Manager"
+msgstr "SV Columns Manager"
+
+#: dist/blocks.build.js:1 src/blocks/wrapper/index.js:11
+msgid "Control how your column blocks behave."
+msgstr "Steuern Sie, wie sich Ihre Spaltenblöcke verhalten."
+
+#: dist/blocks.build.js:1 src/blocks/wrapper/index.js:16
+msgid "Columns Mobile"
+msgstr "Spalten Mobil"
+
+#: dist/blocks.build.js:1 src/blocks/wrapper/index.js:17
+msgid "Columns Breakpoint"
+msgstr "Spalten Breakpoint"
+
+#: dist/blocks.build.js:1 src/blocks/wrapper/index.js:18
+msgid "Columns Spacing"
+msgstr "Spalten Abstände"
+
+#: dist/blocks.build.js:1 src/blocks/wrapper/index.js:19
+msgid "Columns Grid"
+msgstr "Spalten Raster"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/desktop.js:34
+#: src/blocks/wrapper/components/inspector_controls/alignment/index.js:18
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/desktop.js:22
+#: src/blocks/wrapper/components/inspector_controls/alignment/phone.js:26
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet.js:26
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet_pro.js:26
+#: src/blocks/wrapper/components/inspector_controls/spacing/desktop.js:22
+#: src/blocks/wrapper/components/inspector_controls/spacing/phone.js:26
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet.js:26
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet_pro.js:26
+msgid "Row"
+msgstr "Zeile"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/desktop.js:23
+#: src/blocks/wrapper/components/inspector_controls/alignment/phone.js:27
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet.js:27
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet_pro.js:27
+#: src/blocks/wrapper/components/inspector_controls/spacing/desktop.js:23
+#: src/blocks/wrapper/components/inspector_controls/spacing/phone.js:27
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet.js:27
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet_pro.js:27
+msgid "Row Reverse"
+msgstr "Zeile umkehren"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/desktop.js:24
+#: src/blocks/wrapper/components/inspector_controls/alignment/phone.js:28
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet.js:28
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet_pro.js:28
+#: src/blocks/wrapper/components/inspector_controls/spacing/desktop.js:24
+#: src/blocks/wrapper/components/inspector_controls/spacing/phone.js:28
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet.js:28
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet_pro.js:28
+msgid "Column"
+msgstr "Spalte"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/desktop.js:25
+#: src/blocks/wrapper/components/inspector_controls/alignment/phone.js:29
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet.js:29
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet_pro.js:29
+#: src/blocks/wrapper/components/inspector_controls/spacing/desktop.js:25
+#: src/blocks/wrapper/components/inspector_controls/spacing/phone.js:29
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet.js:29
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet_pro.js:29
+msgid "Column Reverse"
+msgstr "Spalte Umkehrung"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/desktop.js:30
+#: src/blocks/wrapper/components/inspector_controls/spacing/desktop.js:30
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:80
+msgid "Desktop"
+msgstr "Desktop"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet_pro.js:34
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet_pro.js:34
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:68
+msgid "Tablet Pro"
+msgstr "Tablet Pro"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/phone.js:38
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet.js:38
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet_pro.js:38
+msgid "Alignment (Portrait)"
+msgstr "Ausrichtung (Hochformat)"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/phone.js:44
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet.js:44
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet_pro.js:44
+msgid "Alignment (Landscape)"
+msgstr "Ausrichtung (Querformat)"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/tablet.js:34
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet.js:34
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:56
+msgid "Tablet"
+msgstr "Tablet"
+
+#: dist/blocks.build.js:1
+#: src/blocks/wrapper/components/inspector_controls/alignment/phone.js:34
+#: src/blocks/wrapper/components/inspector_controls/spacing/phone.js:34
+msgid "Phone"
+msgstr "Telefon"
+
+#: src/blocks/wrapper/components/inspector_controls/spacing/desktop.js:34
+#: src/blocks/wrapper/components/inspector_controls/spacing/index.js:18
+#: src/lib/modules/sv_columns_manager/lib/backend/tpl/settings.php:58
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:93
+msgid "Spacing"
+msgstr "Abstand"
+
+#: src/blocks/wrapper/components/inspector_controls/spacing/phone.js:38
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet.js:38
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet_pro.js:38
+msgid "Pattern (Portrait)"
+msgstr "Ausrichtung (Porträt)"
+
+#: src/blocks/wrapper/components/inspector_controls/spacing/phone.js:44
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet.js:44
+#: src/blocks/wrapper/components/inspector_controls/spacing/tablet_pro.js:44
+msgid "Pattern (Landscape)"
+msgstr "Ausrichtung (Landscape)"
+
+#: src/core_plugin/core/abstract.php:88
+msgid "Class"
+msgstr "Klasse"
+
+#: src/core_plugin/core/abstract.php:90
+msgid "could not be loaded (tried to load class-file"
+msgstr ""
+"konnte nicht geladen werden (versuchte die folgende Klassen-Datei zu laden"
+
+#: src/core_plugin/core/abstract.php:162 src/core_plugin/core/abstract.php:180
+#: src/core_plugin/core/abstract.php:198
+msgid "not defined"
+msgstr "nicht definiert"
+
+#: src/core_plugin/core/abstract.php:286
+msgid "Configuration &amp; Settings"
+msgstr "Konfiguration &amp; Einstellungen"
+
+#: src/core_plugin/core/abstract.php:287
+msgid "Helpful tools &amp; helper"
+msgstr "Hilfreiche Tools &amp; Helper"
+
+#: src/core_plugin/core/abstract.php:396
+#: src/core_plugin/core/abstract_template_sv_archive.php:25
+#: src/core_plugin/core/abstract_template_sv_archive.php:324
+#: src/core_plugin/core/abstract_template_sv_archive.php:331
+#: src/core_plugin/core/abstract_template_sv_archive.php:346
+#: src/core_plugin/core/abstract_template_sv_archive.php:361
+#: src/core_plugin/core/abstract_template_sv_archive.php:368
+#: src/core_plugin/core/abstract_template_sv_archive.php:374
+#: src/core_plugin/core/abstract_template_sv_archive.php:380
+#: src/core_plugin/core/abstract_template_sv_archive.php:385
+#: src/core_plugin/core/abstract_template_sv_archive.php:390
+#: src/core_plugin/core/abstract_template_sv_archive.php:396
+#: src/core_plugin/core/abstract_template_sv_archive.php:409
+#: src/core_plugin/core/abstract_template_sv_archive.php:422
+msgid "Common"
+msgstr "Allgemein"
+
+#: src/core_plugin/core/abstract.php:706
+msgid "No Title defined."
+msgstr "Kein Titel definiert."
+
+#: src/core_plugin/core/abstract.php:726
+msgid "No description defined."
+msgstr "Keine Beschreibung definiert."
+
+#: src/core_plugin/core/abstract.php:736
+msgid "No privacy statement defined."
+msgstr "Keine Datenschutzerklärung definiert."
+
+#: src/core_plugin/core/abstract.php:813
+#: src/core_plugin/core/scripts/scripts.php:122
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/core_plugin/core/abstract.php:1081
+msgid "Minutes"
+msgstr "Minuten"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:29
+#: src/core_plugin/core/abstract_template_sv_archive.php:430
+#: src/core_plugin/core/abstract_template_sv_archive.php:435
+#: src/core_plugin/core/abstract_template_sv_archive.php:448
+#: src/core_plugin/core/abstract_template_sv_archive.php:453
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:64
+msgid "Entry"
+msgstr "Eintrag"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:33
+msgid "Empty"
+msgstr "Leer"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:37
+msgid "Header"
+msgstr "Kopfbereich"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:41
+msgid "Footer"
+msgstr "Fußzeile"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:45
+msgid "Sidebar Top"
+msgstr "Seitenleiste Oben"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:49
+msgid "Sidebar Right"
+msgstr "Sidebar rechts"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:53
+msgid "Sidebar Bottom"
+msgstr "Seitenleiste Unten"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:57
+msgid "Sidebar Left"
+msgstr "Sidebar links"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:61
+msgid "Featured Image"
+msgstr "Beitragsbild"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:65
+msgid "Title"
+msgstr "Titel"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:69
+msgid "Excerpt"
+msgstr "Auszug"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:73
+msgid "Read More"
+msgstr "Weiter lesen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:77
+msgid "Author"
+msgstr "Autor"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:81
+msgid "Date"
+msgstr "Datum"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:85
+msgid "Date Modified"
+msgstr "Datum letzte Bearbeitung"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:89
+msgid "Categories"
+msgstr "Kategorie"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:287
+msgid "Extra Styles"
+msgstr "Extra Styles"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:294
+msgid "Style Label"
+msgstr "Beschriftung"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:295
+msgid "A label to differentiate your Styles."
+msgstr "Eine Beschriftung, um deine Styles zu unterscheiden."
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:297
+msgid "Label"
+msgstr "Beschriftung"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:303
+msgid "Slug"
+msgstr "Slug"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:304
+msgid "This slug is used for the helper classes."
+msgstr "Dieser Slug wird für die Helferklassen verwendet."
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:325
+msgid "Min Height"
+msgstr "Min. Höhe"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:326
+msgid "Minimum Height Header"
+msgstr "Minimale Höhe Kopfzeile"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:332
+msgid "Stack Sidebar Columns"
+msgstr "Stapeln von Seitenleistenspalten"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:333
+msgid "You may want to stack Sidebars on narrow viewports."
+msgstr ""
+"Möglicherweise möchten Sie Sidebars in schmalen Ansichtsfenstern stapeln."
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:347
+msgid "Columns"
+msgstr "Spalten"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:348
+msgid "Set number of columns for entries"
+msgstr "Festlegen der Anzahl der Spalten für Einträge"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:362
+#: src/core_plugin/core/abstract_template_sv_archive.php:544
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_family.php:8
+msgid "Font Family"
+msgstr "Schriftart (Font Family)"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:363
+#: src/core_plugin/core/abstract_template_sv_archive.php:545
+msgid "Choose a font for your text."
+msgstr "Wähle eine Schriftart für deinen Text"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:364
+#: src/core_plugin/core/abstract_template_sv_archive.php:546
+msgid "Please activate module SV Webfontloader for this Feature."
+msgstr "Bitte aktiviere das Modul SV Webfontloader für diese Funktion."
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:369
+#: src/core_plugin/core/abstract_template_sv_archive.php:551
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_size.php:7
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:370
+#: src/core_plugin/core/abstract_template_sv_archive.php:552
+msgid "Font Size in Pixel"
+msgstr "Schriftgröße in Pixel"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:375
+#: src/core_plugin/core/abstract_template_sv_archive.php:557
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/line_height.php:7
+msgid "Line Height"
+msgstr "Zeilenabstand"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:376
+#: src/core_plugin/core/abstract_template_sv_archive.php:558
+msgid "Set line height as multiplier or with a unit."
+msgstr "Setze Zeilenhöhe als Multiplier oder mit einer Einheit."
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:381
+#: src/core_plugin/core/abstract_template_sv_archive.php:563
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:386
+#: src/core_plugin/core/abstract_template_sv_archive.php:431
+#: src/core_plugin/core/abstract_template_sv_archive.php:568
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:391
+msgid "Column Spacing"
+msgstr "Spaltenabstand"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:392
+msgid "Set a Spacing in Pixel for columns"
+msgstr "Festlegen eines Abstands in Pixel für Spalten"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:397
+#: src/core_plugin/core/abstract_template_sv_archive.php:436
+#: src/core_plugin/core/abstract_template_sv_archive.php:583
+msgid "Margin"
+msgstr "Außenabstand"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:410
+#: src/core_plugin/core/abstract_template_sv_archive.php:449
+#: src/core_plugin/core/abstract_template_sv_archive.php:588
+msgid "Padding"
+msgstr "Innenabstand"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:423
+#: src/core_plugin/core/abstract_template_sv_archive.php:454
+#: src/core_plugin/core/abstract_template_sv_archive.php:593
+msgid "Border"
+msgstr "Rahmen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:461
+#: src/core_plugin/core/abstract_template_sv_archive.php:467
+#: src/core_plugin/core/abstract_template_sv_archive.php:473
+#: src/core_plugin/core/abstract_template_sv_archive.php:479
+#: src/core_plugin/core/abstract_template_sv_archive.php:485
+#: src/core_plugin/core/abstract_template_sv_archive.php:491
+#: src/core_plugin/core/abstract_template_sv_archive.php:497
+#: src/core_plugin/core/abstract_template_sv_archive.php:503
+#: src/core_plugin/core/abstract_template_sv_archive.php:509
+#: src/core_plugin/core/abstract_template_sv_archive.php:515
+#: src/core_plugin/core/abstract_template_sv_archive.php:521
+msgid "Parts"
+msgstr "Bereiche"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:462
+msgid "Show Archive Header"
+msgstr "Archivkopfzeile anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:463
+#: src/core_plugin/core/abstract_template_sv_archive.php:469
+#: src/core_plugin/core/abstract_template_sv_archive.php:475
+#: src/core_plugin/core/abstract_template_sv_archive.php:481
+#: src/core_plugin/core/abstract_template_sv_archive.php:487
+#: src/core_plugin/core/abstract_template_sv_archive.php:493
+#: src/core_plugin/core/abstract_template_sv_archive.php:499
+#: src/core_plugin/core/abstract_template_sv_archive.php:505
+#: src/core_plugin/core/abstract_template_sv_archive.php:511
+#: src/core_plugin/core/abstract_template_sv_archive.php:517
+#: src/core_plugin/core/abstract_template_sv_archive.php:523
+msgid "Show or Hide this Template Part"
+msgstr "Templatebereich anzeigen oder verstecken"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:468
+msgid "Show Archive Footer"
+msgstr "Archivfußzeile anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:474
+msgid "Show Notice when empty"
+msgstr "Nachricht anzeigen, falls leer"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:480
+msgid "Show Featured Image"
+msgstr "Beitragsbild anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:486
+msgid "Show Title"
+msgstr "Titel anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:492
+msgid "Show Excerpt"
+msgstr "Auszug anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:498
+msgid "Show Read More"
+msgstr "Weiterlesen anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:504
+msgid "Show Author"
+msgstr "Autor anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:510
+msgid "Show Date"
+msgstr "Datum anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:516
+msgid "Show Date Modified"
+msgstr "Datum der letzten Bearbeitung anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:522
+msgid "Show Categories"
+msgstr "Kategorie anzeigen"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:531
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:532
+msgid "Order part"
+msgstr "Reihenfolge Bereich"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:534
+#: src/core_plugin/core/scripts/scripts.php:238
+msgid "Default"
+msgstr "Standard"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:573
+msgid "Text Color Hover"
+msgstr "Textfarbe Hover"
+
+#: src/core_plugin/core/abstract_template_sv_archive.php:578
+msgid "Background Color Hover"
+msgstr "Hintergrundfarbe Hover"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:3
+msgid "Start"
+msgstr "Start"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:4
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:5
+msgid "Finished"
+msgstr "Abgeschlossen"
+
+#: src/core_plugin/core/ajax_fragmented_requests/backend/tpl/form.php:8
+msgid "Continue Import from Cycle"
+msgstr "Import fortsetzen von Zyklus"
+
+#: src/core_plugin/core/backend/tpl/about.php:5
+#: src/core_plugin/core/backend/tpl/header.php:17
+#: src/core_plugin/core/info/backend/tpl/about.php:16
+msgid "About"
+msgstr "Über"
+
+#: src/core_plugin/core/backend/tpl/about.php:10
+#: src/core_plugin/core/info/backend/tpl/about.php:21
+#: src/core_plugin/core_plugin.php:42 src/core_plugin/core_plugin.php:43
+msgid "Info"
+msgstr "Info"
+
+#: src/core_plugin/core/backend/tpl/about.php:12
+#: src/core_plugin/core/info/backend/tpl/about.php:24
+msgid "Name:"
+msgstr "Name:"
+
+#: src/core_plugin/core/backend/tpl/about.php:13
+msgid "Version:"
+msgstr "Version:"
+
+#: src/core_plugin/core/backend/tpl/about.php:17
+#: src/core_plugin/core/info/backend/tpl/about.php:38
+msgid "Description"
+msgstr "Beschreibung"
+
+#: src/core_plugin/core/backend/tpl/footer.php:10
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/core_plugin/core/backend/tpl/header.php:18
+msgid "General info & description"
+msgstr "Allgemeine Infos & Beschreibung"
+
+#: src/core_plugin/core/backend/tpl/header.php:25
+#: src/core_plugin/core/backend/tpl/legal.php:5
+msgid "Legal Information"
+msgstr "Rechtliche Informationen"
+
+#: src/core_plugin/core/backend/tpl/header.php:26
+msgid "Copyright & Usage"
+msgstr "Copyright & Nutzung"
+
+#: src/core_plugin/core/backend/tpl/legal.php:9
+msgid "General Information"
+msgstr "Allgemeine Informationen"
+
+#: src/core_plugin/core/backend/tpl/legal.php:11
+msgid "Project Website:"
+msgstr "Projekt Website:"
+
+#. Author of the plugin/theme
+#: src/core_plugin/core/backend/tpl/legal.php:11
+msgid "straightvisions GmbH"
+msgstr "straightvisions GmbH"
+
+#: src/core_plugin/core/backend/tpl/legal.php:13
+msgid "License: GPL3 or later"
+msgstr "Lizenz: GPL3 oder höher"
+
+#: src/core_plugin/core/backend/tpl/legal.php:16
+msgid "This program is free software:"
+msgstr "This program is free software:"
+
+#: src/core_plugin/core/backend/tpl/legal.php:19
+msgid ""
+"You can redistribute it and/or modify it under the terms of the GNU General "
+"Public License as\n"
+"\t\t\t\t\tpublished by the Free Software Foundation, either version 3 of the "
+"License, or (at your option)\n"
+"\t\t\t\t\tany later version."
+msgstr ""
+"You can redistribute it and/or modify it under the terms of the GNU General "
+"Public License as\n"
+"\t\t\t\t\tpublished by the Free Software Foundation, either version 3 of the "
+"License, or (at your option)\n"
+"\t\t\t\t\tany later version."
+
+#: src/core_plugin/core/backend/tpl/legal.php:26
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"\t\t\t\t\twithout even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE."
+msgstr ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY;\n"
+"\t\t\t\t\twithout even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE."
+
+#: src/core_plugin/core/backend/tpl/legal.php:31
+msgid "See the GNU General Public License for more details."
+msgstr "See the GNU General Public License for more details."
+
+#: src/core_plugin/core/backend/tpl/legal.php:33
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program."
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"this program."
+
+#: src/core_plugin/core/backend/tpl/legal.php:35
+msgid "If not, See"
+msgstr "If not, See"
+
+#: src/core_plugin/core/backend/tpl/legal.php:37
+msgid "http://www.gnu.org/licenses/"
+msgstr "http://www.gnu.org/licenses/"
+
+#: src/core_plugin/core/backend/tpl/legal.php:42
+msgid "Privacy Statement"
+msgstr "Datenschutzerklärung"
+
+#: src/core_plugin/core/core.php:113
+msgid ""
+"Please check that all SV products are up to date. You may need to update "
+msgstr ""
+"Bitte überprüfe, dass alle SV Produkte auf dem aktuellen Stand sind. "
+"Folgende müssen möglicherweise aktualisiert werden "
+
+#: src/core_plugin/core/core.php:114
+msgid "SV Core was loaded by"
+msgstr "SV Core wurde geladen von"
+
+#: src/core_plugin/core/core.php:116
+msgid "with version:"
+msgstr "mit Version:"
+
+#: src/core_plugin/core/core.php:117
+#, php-format
+msgid "but %s v%s requires core-version"
+msgstr "aber %s v%s benötigt Core-Version"
+
+#: src/core_plugin/core/core.php:160 src/core_plugin/core/core.php:166
+#: src/core_plugin/core/core.php:303 src/core_plugin/core/core.php:322
+#: src/core_plugin/core/core.php:474
+msgid "Setting saved"
+msgstr "Einstellung gespeichert"
+
+#: src/core_plugin/core/core.php:305
+msgid "Nonce check failed / Empty data."
+msgstr "Nonce-Prüfung fehlgeschlagen / Leere Daten."
+
+#: src/core_plugin/core/core.php:313
+msgid "Nothing to update."
+msgstr "Nichts zu aktualisieren."
+
+#: src/core_plugin/core/core.php:326
+msgid "You are unauthorized to perform this action."
+msgstr "Du bist nicht berechtigt, diese Aktion durchzuführen."
+
+#: src/core_plugin/core/core.php:332
+msgid "Nonce check cannot fail."
+msgstr "Nonce-Prüfung kann nicht fehlschlagen."
+
+#: src/core_plugin/core/core.php:366
+msgid "Website enhanced by straightvisions.com"
+msgstr "Website enhanced by straightvisions.com"
+
+#: src/core_plugin/core/core.php:437
+#: src/core_plugin/core/info/backend/tpl/about.php:62
+msgid "Expert Mode"
+msgstr "Experten-Modus"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:28
+msgid "Active Core Version:"
+msgstr "Aktive Core Version:"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:32
+msgid "Active Core Path:"
+msgstr "Aktiver Core Pfad:"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:42
+msgid ""
+"Our themes and plugins share a core which provides commonly used features.\n"
+"\t\t\t\t\tThe core is included and shared within each plugin or theme, so "
+"make sure if you update one product,\n"
+"\t\t\t\t\tto update all others too."
+msgstr ""
+"Unsere Themes und Plugins teilen eine Core, der die gängigen Funktionen "
+"bietet. Die Core ist in jedem Plugin oder Theme enthalten und geteilt. "
+"Stelle möglichst sicher, dass wenn du ein Produkt aktualisierst, alle "
+"anderen auch aktualisiert werden."
+
+#: src/core_plugin/core/info/backend/tpl/about.php:51
+msgid "Primary Instance"
+msgstr "Primäre Instanz"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:71
+msgid "Instances"
+msgstr "Instanzen"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:78
+msgid "This plugin version is outdated, please update this plugin!"
+msgstr ""
+"Diese Pluginversion ist nicht mehr aktuell, bitte aktualisiere das Plugin!"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:95
+msgid "Theme"
+msgstr "Theme"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:95
+msgid "Plugin"
+msgstr "Plugin"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:113
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/core_plugin/core/info/backend/tpl/about.php:114
+#: src/core_plugin/core/scripts/scripts.php:231
+#: src/core_plugin/core/scripts/scripts.php:241
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: src/core_plugin/core/info/info.php:13
+msgid "SV Core"
+msgstr "SV Core"
+
+#: src/core_plugin/core/info/info.php:14
+msgid ""
+"Our core framework is included in all recent plugins and themes by "
+"straightvisions."
+msgstr ""
+"Unser Core Framework ist Teil aller unserer aktuellen Plugins und Themes von "
+"straightvisions.com."
+
+#: src/core_plugin/core/info/info.php:16
+msgid "does not collect or share any data from clients or visitors."
+msgstr "sammelt oder teilt keine Daten von Kunden oder Gästen."
+
+#: src/core_plugin/core/lib/tpl/settings/scripts_general.php:3
+msgid "General"
+msgstr "Allgemein"
+
+#: src/core_plugin/core/lib/tpl/settings/scripts_list.php:3
+msgid "Scripts Overview"
+msgstr "Skriptübersicht"
+
+#: src/core_plugin/core/scripts/scripts.php:50
+msgid "Scripts"
+msgstr "Skripte"
+
+#: src/core_plugin/core/scripts/scripts.php:51
+msgid "Override Scripts Loading."
+msgstr "Ladeeinstellungen der Scripte überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:113
+msgid "SV100"
+msgstr "SV100"
+
+#: src/core_plugin/core/scripts/scripts.php:134
+msgid "Clear Cache"
+msgstr "Cache leeren"
+
+#: src/core_plugin/core/scripts/scripts.php:195
+msgid "Flush cache for all CSS files"
+msgstr "Leere Cache für alle CSS Dateien"
+
+#: src/core_plugin/core/scripts/scripts.php:196
+msgid "All cached CSS Files will be regenerated"
+msgstr "Alle gecachten CSS Dateien werden neu generiert"
+
+#: src/core_plugin/core/scripts/scripts.php:201
+msgid "Disable all CSS per Default"
+msgstr "Alle CSS per Standard abschalten"
+
+#: src/core_plugin/core/scripts/scripts.php:202
+msgid ""
+"CSS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"CSS-Anmeldeformular wird standardmäßig deaktiviert - Du kannst dies später "
+"weiter unten überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:207
+msgid "Disable all JS per Default"
+msgstr "Alle JS per Standard abschalten"
+
+#: src/core_plugin/core/scripts/scripts.php:208
+msgid ""
+"JS enqueued will be disabled by default - you may override this later down "
+"below."
+msgstr ""
+"JS Einreihung wird standardmäßig deaktiviert. Du kannst dies später weiter "
+"unten überschreiben."
+
+#: src/core_plugin/core/scripts/scripts.php:233
+#: src/core_plugin/core/scripts/scripts.php:239
+msgid "Inline"
+msgstr "Inline"
+
+#: src/core_plugin/core/scripts/scripts.php:233
+#: src/core_plugin/core/scripts/scripts.php:240
+msgid "Attached"
+msgstr "Angehängt"
+
+#: src/core_plugin/core/scripts/scripts.php:258
+#: src/core_plugin/core/scripts/scripts.php:268
+msgid "Flush Cache"
+msgstr "Cache leeren"
+
+#: src/core_plugin/core/scripts/scripts.php:259
+#: src/core_plugin/core/scripts/scripts.php:269
+msgid "Cache Active"
+msgstr "Cache Aktiv"
+
+#: src/core_plugin/core/scripts/scripts.php:527
+msgid "Script \""
+msgstr "Skript \""
+
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:51
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/core_plugin/core/settings/modules/setting_group/setting_group.php:64
+msgid "Group #"
+msgstr "Gruppe #"
+
+#: src/core_plugin/core/settings/settings.php:261
+msgid "No Options defined!"
+msgstr "Keine Beschreibung definiert!"
+
+#: src/core_plugin/core/settings/settings.php:290
+msgid "You need at least"
+msgstr "Du brauchst mindestens"
+
+#: src/core_plugin/core/settings/settings.php:290
+msgid "characters."
+msgstr "Zeichen."
+
+#: src/core_plugin/core/settings/settings.php:609
+msgid "Save (classic)"
+msgstr "Speichern (klassisch)"
+
+#: src/core_plugin/core/settings/settings.php:609
+msgid "Save (AJAX)"
+msgstr "Speichern (AJAX)"
+
+#: src/core_plugin/core/settings/settings.php:766
+#: src/core_plugin/core/settings/settings.php:809
+msgid "Settings Template not found: "
+msgstr "Template für Einstellungen nicht gefunden: "
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:18
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:20
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:11
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:13
+#: src/core_plugin/core/settings/tpl/setting_color.php:15
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:5
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:8
+msgid "Toggle Color Picker"
+msgstr "Wechsel Farbwähler"
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_color.php:18
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_radius.php:46
+msgid "Border Radius"
+msgstr "Rahmenradius"
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_style.php:4
+msgid "Border Style"
+msgstr "Rahmenstil"
+
+#: src/core_plugin/core/settings/tpl/setting_border_tpl/border_width.php:46
+msgid "Border Width"
+msgstr "Rahmenbreite"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow.php:27
+msgid "Preview"
+msgstr "Vorschau"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/blur_radius.php:2
+msgid "Blur Radius"
+msgstr "Blur Radius"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/color.php:11
+msgid "Shadow Color"
+msgstr "Schattenfarbe"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/horizontal_length.php:2
+msgid "Horizontal Length"
+msgstr "Horizontale Länge"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/inset.php:2
+msgid "Shadow Style"
+msgstr "Schattenstil"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/spread_radius.php:2
+msgid "Spread Radius"
+msgstr "Spread Radius"
+
+#: src/core_plugin/core/settings/tpl/setting_box_shadow_tpl/vertical_length.php:2
+msgid "Vertical Length"
+msgstr "Vertikale Länge"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/color.php:5
+msgid "Color"
+msgstr "Farbe"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/font_weight.php:2
+msgid "Font Weight"
+msgstr "Schriftstärke"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/letter_spacing.php:7
+msgid "Letter Spacing"
+msgstr "Zeichenabstand"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/text_decoration.php:2
+msgid "Text Decoration"
+msgstr "Text-Dekoration"
+
+#: src/core_plugin/core/settings/tpl/setting_font_tpl/text_transform.php:2
+msgid "Text Transform"
+msgstr "Text Transform"
+
+#: src/core_plugin/core/settings/tpl/setting_select_page.php:9
+msgid "No Page selected"
+msgstr "Keine Seite ausgewählt"
+
+#: src/core_plugin/core/settings/tpl/setting_upload.php:41
+msgid "Delete File"
+msgstr "Datei löschen"
+
+#: src/core_plugin/core_plugin.php:31 src/core_plugin/core_plugin.php:32
+msgid "straightvisions"
+msgstr "straightvisions"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:43
+msgid "You need to update your PHP version to run"
+msgstr ""
+"Du musst deine PHP Version aktualisieren, damit unsere Produkte funktionieren"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:45
+msgid "Actual version is:"
+msgstr "Installierte Version:"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:46
+msgid "required is"
+msgstr "Erforderlich"
+
+#: src/core_plugin/dependencies/sv_dependencies.php:55
+msgid "You need to install and activate our SV Core plugin to run"
+msgstr "Du musst unser SV Core Plugin installieren und aktivieren"
+
+#: src/init.php:25
+msgid " does not collect or share any data"
+msgstr " sammelt oder teilt keine Daten"
+
+#: src/lib/modules/sv_columns_manager/lib/backend/tpl/settings.php:2
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:14
+msgid "Size Settings"
+msgstr "Größeneinstellungen"
+
+#: src/lib/modules/sv_columns_manager/lib/backend/tpl/settings.php:10
+msgid "SV100 Theme"
+msgstr "SV100 Theme"
+
+#: src/lib/modules/sv_columns_manager/lib/backend/tpl/settings.php:14
+msgid "SV100 Theme Values"
+msgstr "SV100 Theme-Werte"
+
+#: src/lib/modules/sv_columns_manager/lib/backend/tpl/settings.php:20
+msgid ": "
+msgstr ": "
+
+#: src/lib/modules/sv_columns_manager/lib/backend/tpl/settings.php:22
+msgid "Not set"
+msgstr "Nicht eingestellt"
+
+#: src/lib/modules/sv_columns_manager/lib/backend/tpl/settings.php:33
+msgid "Breakpoints"
+msgstr "Breakpoints"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:15
+msgid "Define sizes for the plugin."
+msgstr "Definieren Sie Größen für das Plugin."
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:29
+msgid "Grid Base"
+msgstr "Gitterbasis"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:30
+msgid "Sets the grid base for the columns."
+msgstr "Legt die Rasterbasis für die Spalten fest."
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:35
+msgid "Use theme values"
+msgstr "Verwenden von Designwerten"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:36
+msgid "Uses the values from the SV100 theme."
+msgstr "Verwendet die Werte aus dem SV100-Design."
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:43
+msgid "Mobile"
+msgstr "Mobil"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:44
+msgid "Minimum Size"
+msgstr "Minimale Größe"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:50
+msgid "Mobile (Landscape)"
+msgstr "Mobil (Landscape)"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:51
+msgid "Small devices like landscape phones and less."
+msgstr "Kleine Geräte wie Landscape Smartphones und kleiner."
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:57
+msgid "Medium devices like tablets and less."
+msgstr "Mittlere Geräte, wie Tablets und kleiner."
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:62
+msgid "Tablet (Landscape)"
+msgstr "Tablet (Landscape)"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:63
+msgid "Medium devices like landscape tablets and up."
+msgstr "Mittlere Geräte wie Landscape Tablets und kleiner."
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:69
+msgid "Large tablets or less."
+msgstr "Große Tablets und kleiner."
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:74
+msgid "Tablet Pro (Landscape)"
+msgstr "Tablet Pro (Landscape)"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:75
+msgid "Large tablets landscape or laptops."
+msgstr "Große Tablets im Breitbild oder Laptops."
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:81
+msgid "Desktop Devices"
+msgstr "Desktop Geräte"
+
+#: src/lib/modules/sv_columns_manager/sv_columns_manager.php:94
+msgid "The distance between columns."
+msgstr "Der Abstand zwischen spalten."
+
+#. Plugin URI of the plugin/theme
+msgid "https://straightvisions.com/"
+msgstr "https://straightvisions.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"SV Columns Manager lets you control how columns behave on other devices."
+msgstr ""
+"Mit dem SV-Spalten-Manager können Sie steuern, wie sich Spalten auf anderen "
+"Geräten verhalten."
+
+#. Author URI of the plugin/theme
+msgid "https://straightvisions.com"
+msgstr "https://straightvisions.com"
